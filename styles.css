@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: red;
+    font-family: 'Impact', sans-serif;
+    padding: 3rem
+}
+
+h3 {
+    font-family: "SUSE", sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: blue;
+}
+:root {
+    font-size: 24px;
+}
+h1 {
+    font-size: 3rem;
+    font-family: "Playwrite ZA Guides", cursive;
+    color: purple;
+}
+
+.group {
+    margin-bottom: 1.5rem;
+}
+
+input[type="radio"] {
+    margin-right: 0.25rem;
+}
+
+input[type="radio"] + label{
+    margin-right: 1rem;
+}
+
+input[type="text"], input[type="date"] {
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+
+}
+
+input[type="submit"] {
+    padding: 2rem;
+    background-color: yellow;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 1rem;
+    box-shadow: 10px 3px 50px 15px rgba(255,0, 255,1)
+}
